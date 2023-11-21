@@ -1,0 +1,80 @@
+* { background-image: url(ok.jpg);
+	padding:0;
+	margin:0;
+	font-family:century gothic;
+	text-align:center;
+}
+
+form{
+	padding:80px 10px;
+	background-image: url(dos.jpg); 
+	margin:calc(25% + 100px);
+	margin-top: 70px;
+	padding-top:28px;
+	margin-bottom:30px;
+}
+
+
+h1{ font-family: algerian;
+	font-size:30px;
+	text-shadow: 0px 2px 2px rgba(0,0,0,.8) 
+	text-align:center;
+	padding:12px;
+	color:#444;
+}
+h1{ font-family: algerian;
+	font-size:30px;
+	text-shadow: 0px 2px 2px rgba(0,0,0,.8) 
+	text-align:center;
+	padding:12px;
+	color:#444;
+}
+input{
+	width:calc(80% -500px);
+	padding:9px;
+	margin:auto;
+	margin-top:18px;
+	font-size:24px;
+}
+
+input[type='submit']{
+	background-color:black;
+	color:black;
+	width:calc(80%-20px);
+	margin:0 10%;
+	margin-top:22px;
+	border:none;
+}
+
+.ok{
+	text-align:center;
+	width: 100%;
+	padding:12px;
+	background-color:#48e;
+	color:red;
+}
+.bad{
+	text-align:center;
+	width:100%;
+	padding:12px;
+	background-color:#a22;
+	color:#fff;
+
+}
+.img1{
+	width:200px;
+	margin-left:-450px;
+}
+.img2{
+	width:200px;
+	margin-left:410px;
+	margin-top:65px;
+}
+.img1:hover{
+	-webkit-transform:rotate(360deg);
+	transition:2s ease-in-out;
+}
+.img2:hover{
+	transform:scale(200%);
+	transition:2s ease-in-out;
+	
